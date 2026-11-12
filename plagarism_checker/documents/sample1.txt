@@ -1,0 +1,2 @@
+Data structures are important in computer science.
+Algorithms help solve computational problems efficiently.
