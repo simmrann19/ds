@@ -1,0 +1,2 @@
+Data structures are important in computer science.
+Programming helps develop efficient applications.
