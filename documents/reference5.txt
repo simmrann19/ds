@@ -1,0 +1,17 @@
+﻿MACHINE LEARNING
+
+Machine learning is a field of computer science that enables computers to learn patterns from data and make decisions or predictions without being explicitly programmed for every situation.
+
+Machine learning is a major part of artificial intelligence. It allows computers to learn from data and improve their performance without being explicitly programmed for every task.
+
+Machine learning algorithms analyze large amounts of data to identify patterns, make predictions, and support decision-making.
+
+There are three major categories of machine learning: supervised learning, unsupervised learning, and reinforcement learning.
+
+Supervised learning uses labelled training data to build predictive models. Unsupervised learning identifies hidden patterns in datasets without predefined labels.
+
+Reinforcement learning trains an agent through interactions with an environment, using rewards and penalties to improve its actions.
+
+Machine learning is applied in fraud detection, medical diagnosis, recommendation systems, image recognition, and weather forecasting.
+
+The accuracy of a machine learning model depends on the quality of training data, feature selection, and the algorithm used.

@@ -1,0 +1,13 @@
+﻿ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+
+Artificial intelligence is a branch of computer science that focuses on developing machines capable of performing tasks that normally require human intelligence.
+
+Machine learning is a major part of artificial intelligence. It allows computers to learn from data and improve their performance without being explicitly programmed for every task.
+
+Machine learning algorithms analyze large amounts of data to identify patterns, make predictions, and support decision-making.
+
+There are three major categories of machine learning: supervised learning, unsupervised learning, and reinforcement learning.
+
+Neural networks are computational models inspired by the structure of the human brain. They are commonly used in image recognition, speech processing, and natural language understanding.
+
+Machine learning is applied in fraud detection, medical diagnosis, recommendation systems, image recognition, and weather forecasting.
