@@ -1,15 +1,114 @@
-﻿ARTIFICIAL INTELLIGENCE
+﻿SOURCE INFORMATION
 
-Artificial intelligence is a branch of computer science that focuses on developing machines capable of performing tasks that normally require human intelligence.
+Source: Google Machine Learning Crash Course
+Article: What is Machine Learning?
+Publisher: Google for Developers
+URL: https://developers.google.com/machine-learning/intro-to-ml/what-is-ml
 
-Machine learning is a major part of artificial intelligence. It allows computers to learn from data and improve their performance without being explicitly programmed for every task.
+--------------------------------------------------
 
-Artificial intelligence is widely used in healthcare, education, transportation, banking, and industrial automation.
+WHAT IS MACHINE LEARNING?
 
-Machine learning algorithms analyze large amounts of data to identify patterns, make predictions, and support decision-making.
+Machine learning (ML) powers some of the most important technologies we use, from translation apps to autonomous vehicles. This course explains the core concepts behind ML.
 
-Neural networks are computational models inspired by the structure of the human brain. They are commonly used in image recognition, speech processing, and natural language understanding.
+ML offers a new way to solve problems, answer complex questions, and create new content. ML can predict the weather, estimate travel times, recommend songs, auto-complete sentences, summarize articles, and generate never-seen-before images.
 
-The development of artificial intelligence has created opportunities for automation, improved productivity, and faster information processing.
+In basic terms, ML is the process of training a piece of software, called a model, to make useful predictions or generate content (like text, images, audio, or video) from data.
 
-Artificial intelligence systems can process complex information and assist humans in solving problems across different industries.
+For example, suppose we wanted to create an app to predict rainfall. We could use either a traditional approach or an ML approach. Using a traditional approach, we'd create a physics-based representation of the Earth's atmosphere and surface, computing massive amounts of fluid dynamics equations. This is incredibly difficult.
+
+Using an ML approach, we would give an ML model enormous amounts of weather data until the ML model eventually learned the mathematical relationship between weather patterns that produce differing amounts of rain. We would then give the model the current weather data, and it would predict the amount of rain.
+
+TYPES OF ML SYSTEMS
+
+ML systems fall into one or more of the following categories based on how they learn to make predictions or generate content:
+
+- Supervised learning
+- Unsupervised learning
+- Reinforcement learning
+- Generative AI
+
+SUPERVISED LEARNING
+
+Supervised learning models can make predictions after seeing lots of data with the correct answers and then discovering the connections between the elements in the data that produce the correct answers. This is like a student learning new material by studying old exams that contain both questions and answers. Once the student has trained on enough old exams, the student is well prepared to take a new exam. These ML systems are "supervised" in the sense that a human gives the ML system data with the known correct results.
+
+Two of the most common use cases for supervised learning are regression and classification.
+
+REGRESSION
+
+A regression model predicts a numeric value. For example, a weather model that predicts the amount of rain, in inches or millimeters, is a regression model.
+
+Examples of regression models include:
+
+Future house price: Possible input data includes square footage, zip code, number of bedrooms and bathrooms, lot size, mortgage interest rate, property tax rate, construction costs, and number of homes for sale in the area. The numeric prediction is the price of the home.
+
+Future ride time: Possible input data includes historical traffic conditions gathered from smartphones, traffic sensors, ride-hailing and other navigation applications, distance from destination, and weather conditions. The numeric prediction is the time in minutes and seconds to arrive at a destination.
+
+CLASSIFICATION
+
+Classification models predict the likelihood that something belongs to a category. Unlike regression models, whose output is a number, classification models output a value that states whether or not something belongs to a particular category. For example, classification models are used to predict if an email is spam or if a photo contains a cat.
+
+Classification models are divided into two groups: binary classification and multiclass classification. Binary classification models output a value from a class that contains only two values, for example, a model that outputs either rain or no rain. Multiclass classification models output a value from a class that contains more than two values, for example, a model that can output either rain, hail, snow, or sleet.
+
+UNSUPERVISED LEARNING
+
+An unsupervised learning model aims to identify meaningful patterns in a dataset. For example, many unsupervised learning models rely on a technique called clustering to organize similar data into groups called clusters.
+
+Clustering differs from classification because the categories aren't defined by you. For example, an unsupervised model might cluster a weather dataset based on temperature, revealing segmentations that define the seasons. You might then attempt to name those clusters based on your understanding of the dataset.
+
+REINFORCEMENT LEARNING
+
+Reinforcement learning models make predictions by getting rewards or penalties based on actions performed within an environment. A reinforcement learning system generates a policy that defines the best strategy for getting the most rewards.
+
+Reinforcement learning is used to train robots to perform tasks, like walking around a room, and software programs like AlphaGo to play the game of Go.
+
+GENERATIVE AI
+
+Generative AI is a class of models that creates content from user input. For example, generative AI can create unique images, music compositions, and jokes; it can summarize articles, explain how to perform a task, or edit a photo.
+
+Generative AI can take a variety of inputs and create a variety of outputs, like text, images, audio, and video. It can also take and create combinations of these. For example, a model can take an image as input and create an image and text as output, or take an image and text as input and create a video as output.
+
+We can discuss generative models by their inputs and outputs, typically written as "type of input"-to-"type of output." For example, the following is a partial list of some inputs and outputs for generative models:
+
+- Text-to-text
+- Text-to-image
+- Text-to-video
+- Text-to-code
+- Text-to-speech
+- Image and text-to-image
+
+Examples of generative models include:
+
+Text-to-text: A model can answer a question such as "Who invented the Le Mans race?" by generating a descriptive response about the history of the race.
+
+Text-to-image: A model can generate an image based on a prompt such as "An alien octopus floats through a portal while reading a newspaper."
+
+Text-to-video: A model can generate a video based on a description of a teddy bear swimming underwater with colorful fishes.
+
+Text-to-code: A model can generate a Python loop that iterates over a list of numbers and prints the prime numbers.
+
+Image-to-text: A model can analyze an image of a flamingo and generate a description identifying the bird and providing information about it.
+
+How does generative AI work? At a high-level, generative models learn patterns in data with the goal to produce new but similar data. Generative models are like the following:
+
+- Comedians who learn to imitate others by observing people's behaviors and style of speaking.
+- Artists who learn to paint in a particular style by studying lots of paintings in that style.
+- Cover bands that learn to sound like a specific music group by listening to lots of music by that group.
+
+To produce unique and creative outputs, generative models are initially trained using an unsupervised approach, where the model learns to mimic the data it's trained on. The model is sometimes trained further using supervised or reinforcement learning on specific data related to tasks the model might be asked to perform, for example, summarize an article or edit a photo.
+
+Generative AI is a quickly evolving technology with new use cases constantly being discovered. For example, generative models are helping businesses refine their ecommerce product images by automatically removing distracting backgrounds or improving the quality of low-resolution images.
+
+KEY TERMS
+
+- Classification model
+- Clustering
+- Model
+- Policy
+- Prediction
+- Regression model
+- Reinforcement learning
+- Reward
+- Supervised learning
+- Training
+- Unsupervised learning

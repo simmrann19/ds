@@ -1,15 +1,141 @@
-﻿RENEWABLE ENERGY
+﻿SOURCE INFORMATION
 
-Renewable energy is obtained from natural sources that are continuously replenished, including sunlight, wind, water, and geothermal heat.
+Source: What is Machine Learning (ML)?
+Publisher: Google Cloud
+Author: Not specified
+URL: https://cloud.google.com/learn/what-is-machine-learning
 
-Solar energy uses photovoltaic panels to convert sunlight into electrical energy. Wind turbines generate electricity by converting the kinetic energy of moving air into mechanical energy.
+--------------------------------------------------
 
-The use of renewable energy reduces dependence on conventional fossil fuels and helps decrease environmental pollution.
+WHAT IS MACHINE LEARNING (ML)?
 
-Solar and wind power are important alternatives to traditional electricity generation because they produce electricity with very low direct greenhouse gas emissions during operation.
+Today’s enterprises are inundated with data, and making sense of it can greatly help businesses make better decisions. But the sheer volume coupled with complexity often makes data difficult to analyze using traditional tools. Building, testing, iterating, and deploying analytical models for identifying patterns and insights in data eats up employees’ time in a way that scales poorly. Machine learning can enable an organization to derive insights quickly as data scales.
 
-Renewable energy technologies can support sustainable development while improving long-term energy security.
+MACHINE LEARNING DEFINED
 
-Climate change is a major reason for the growing adoption of renewable energy. Reducing carbon dioxide emissions is essential for limiting the rise in global temperatures.
+Machine learning is a subset of artificial intelligence that enables a system to autonomously learn and improve using neural networks and deep learning, without being explicitly programmed, by feeding it large amounts of data.
 
-Governments and industries are investing in renewable energy infrastructure to create a cleaner and more sustainable energy system.
+Machine learning allows computer systems to continuously adjust and enhance themselves as they accrue more “experiences.” Thus, the performance of these systems can be improved by providing larger and more varied datasets to be processed.
+
+IMPORTANCE OF MACHINE LEARNING
+
+The rate of data generation is accelerating, creating more data than ever before, and machine learning helps make it possible to analyze and find value in this vast amount of data. As such, machine learning is opening an entirely new realm of what humans can do with computers and other machines. Machine learning helps businesses with important functions like fraud detection, identifying security threats, personalization and recommendations, automated customer service through chatbots, transcription and translation, data analysis, and more. Machine learning is also driving the exciting innovation of tomorrow, such as autonomous vehicles, drones, and airplanes, augmented and virtual reality, and robotics.
+
+WHAT IS THE DIFFERENCE BETWEEN MACHINE LEARNING, ARTIFICIAL INTELLIGENCE, AND DEEP LEARNING?
+
+While artificial intelligence (AI) and machine learning (ML) are often used synonymously, they aren't interchangeable terms.
+
+Artificial intelligence is an area of computer science concerned with building computers and machines that can reason, learn, and act in a way resembling human intelligence, or systems that involve data whose scale exceeds what humans can analyze. The field includes many different disciplines including data analytics, statistics, hardware and software engineering, neuroscience, and even philosophy.
+
+Whereas artificial intelligence is a broad category of computer science, machine learning is an application of AI that involves training machines to execute a task without being specifically programmed for it. Machine learning is more explicitly used as a means to extract knowledge from data through techniques such as neural networks, supervised and unsupervised learning, decision trees, and linear regression.
+
+Just as machine learning is a subset of artificial intelligence, deep learning is a subset of machine learning. Deep learning works by training neural networks on sets of data. A neural network is a model that uses a system of artificial neurons that are computational nodes used to classify and analyze data. Data is fed into the first layer of a neural network, with each node making a decision, and then passing that information onto multiple nodes in the next layer. Training models with more than three layers are referred to as “deep neural networks” or “deep learning.” Some modern neural networks have hundreds or thousands of layers.
+
+HOW DOES MACHINE LEARNING WORK?
+
+Machine learning works by training algorithms on sets of data to achieve an expected outcome such as identifying a pattern or recognizing an object. Machine learning is the process of optimizing the model so that it can predict the correct response based on the training data samples.
+
+Assuming the training data is of high quality, the more training samples the machine learning algorithm receives, the more accurate the model will become. The algorithm fits the model to the data during training, in what is called the “fitting process.” This process involves using a loss function to measure the model's errors, and an optimization technique, like gradient descent, to adjust the model's parameters and minimize those errors. If the outcome does not fit the expected outcome, the algorithm is re-trained again and again until it outputs the accurate response. In essence, the algorithm learns from the data and reaches outcomes based on whether the input and response fit with a line, cluster, or other statistical correlation.
+
+TYPES OF MACHINE LEARNING
+
+When talking about different types of machine learning, we're really talking about the training models used. In broad strokes, there are four kinds of models used in machine learning.
+
+SUPERVISED LEARNING
+
+Supervised learning is a machine learning model that uses labeled training data (structured data) to map a specific feature to a label. In supervised learning, the output is known (such as recognizing a picture of an apple) and the model is trained on data of the known output. In simple terms, to train the algorithm to recognize pictures of apples, feed it pictures labeled as apples.
+
+The most common supervised learning algorithms used today include:
+
+- Linear regression
+- Polynomial regression
+- K-nearest neighbors
+- Naive Bayes
+- Decision trees
+
+UNSUPERVISED LEARNING
+
+Unsupervised learning is a machine learning model that uses unlabeled data (unstructured data) to learn patterns. Unlike supervised learning, the “correctness” of the output isn't known ahead of time. Rather, the algorithm learns from the data without human input (and is thus, unsupervised) and categorizes it into groups based on attributes. For example, if the algorithm is given pictures of apples and bananas, it will work by itself to categorize which picture is an apple and which is a banana. Unsupervised learning is good at descriptive modeling and pattern matching.
+
+The most common unsupervised learning algorithms used today include:
+
+- Fuzzy means
+- K-means clustering
+- Hierarchical clustering
+- Partial least squares
+
+SEMI-SUPERVISED LEARNING
+
+There’s also a mixed approach to machine learning called semi-supervised learning in which only some data is labeled. In semi-supervised learning, the algorithm must figure out how to organize and structure the data to achieve a known result. For instance, the machine learning model is told that the result is a pear, but only some training data is labeled as a pear.
+
+REINFORCEMENT LEARNING
+
+Reinforcement learning is a machine learning model that can be described as “learn by doing” through a series of trial and error experiments. An “agent” learns to perform a defined task through a feedback loop until its performance is within a desirable range. The agent receives positive reinforcement when it performs the task well and negative reinforcement when it performs poorly.
+
+An example of reinforcement learning is when Google researchers taught a reinforcement learning algorithm to play the game Go. The model, which had no prior knowledge of the rules of Go, simply moved pieces at random and “learned” the best moves to make. The algorithm was trained by positive and negative reinforcement to the point that the machine learning model could beat a human player at the game.
+
+ADVANTAGES OF MACHINE LEARNING
+
+PATTERN RECOGNITION
+
+The more data consumed by a machine learning algorithm, the better it gets in finding trends and patterns in that data. For instance, an ecommerce website might use machine learning to understand how people shop on their site and use that information to give people better recommendations or find trend data that can lead to new product opportunities.
+
+AUTOMATION
+
+Machine learning and artificial intelligence can take away much of the dull and dreary work from human workers. Utilities like robotic process automation can perform some of the tedious business tasks that keep people from performing more meaningful work. Computer vision and object detection algorithms can help robots pick and pack items from an assembly line. Always-on fraud detection and threat-assessment machine learning can find security flaws before they become a problem.
+
+CONTINUOUS IMPROVEMENT
+
+Given the right kinds of data, machine learning algorithms will continue to improve to be faster and more accurate. This improvement can happen in a few key ways including being retrained with new data, and receiving real-world feedback from users.
+
+POTENTIAL CHALLENGES OF MACHINE LEARNING
+
+BIAS POTENTIAL
+
+Machine learning's often only as good as the data it's being fed. If a machine learning algorithm is fed a biased dataset, it'll deliver biased results.
+
+DATA ACQUISITION
+
+Machine learning can require a lot of data before it can be useful. As many machine learning use cases are based on supervised learning, acquiring and cleaning structured data to train the algorithms is an important first step, which can be difficult if data resides in a variety of siloed locations within an organization.
+
+TECHNICAL EXPERTISE REQUIRED
+
+While machine learning, artificial intelligence, and cloud vendors try to make it as easy as possible to set up and run machine learning algorithms, organizations often need programmers and data scientists to understand and utilize the training algorithms and their results.
+
+RESOURCE INTENSIVE
+
+Machine learning can be time consuming, requiring a lot of computing resources and employee hours to begin processing data and achieving results.
+
+MACHINE LEARNING USES
+
+Some common machine learning use cases include:
+
+ROBOTIC PROCESS AUTOMATION (RPA)
+
+RPA combined with machine learning can create intelligent automation that’s capable of automating complex tasks, such as processing mortgage applications. Google Cloud offers several products that can be used with RPA, including Apigee for API management, AppSheet for low-code development, and Gemini platform for machine learning workflows.
+
+SALES OPTIMIZATION
+
+Customer data can train machine learning algorithms for customer sentiment analysis, sales forecasting analysis, and customer churn predictions. Tools like BigQuery for data warehousing, Looker for data visualization, and Gemini platform for building and deploying machine learning models, can help optimize sales processes.
+
+CUSTOMER SERVICE
+
+Machine learning applications can include chatbots and automated virtual assistants to automate routine customer service tasks and speed up issue resolution. Dialogflow helps enable the creation of conversational interfaces for websites, mobile apps, and devices. Contact Center AI can also be used to enhance customer service operations.
+
+SECURITY
+
+Machine learning helps enterprises improve their threat analysis capabilities and how they respond to cyberattacks, hackers, and malware. Google Cloud Security Command Center (SCC) offers a consolidated view of security and risk across Google Cloud resources. Google Cloud Armor helps protect web applications from threats, and Chronicle SIEM aids in threat detection and investigation.
+
+DIGITAL MARKETING
+
+Machine learning enables marketers to identify new customers and to offer the right marketing materials to the right people at the right time. Marketing analytics solutions that integrate with Google Ads and Google Analytics 360, like BigQuery ML and Gemini platform, can be used to build custom machine learning models for personalized marketing.
+
+FRAUD PREVENTION
+
+Machine learning helps credit card companies and banks review vast amounts of transactional data to identify suspicious activity in real time. reCAPTCHA Enterprise helps protect websites and mobile apps from fraudulent activity. Google Cloud also partners with Swift to create anti-fraud technologies, leveraging advanced AI and federated learning.
+
+RELATED PRODUCTS AND SERVICES
+
+Google offers a number of innovative machine learning products, solutions, and applications on a trusted cloud platform that enables businesses to easily build and implement machine learning algorithms and models.
+
+By using products like Gemini platform and BigQuery ML, organizations can make sense of all the data they’re producing, collecting, or otherwise inquiring, no matter what format it’s in, to make actionable business decisions.

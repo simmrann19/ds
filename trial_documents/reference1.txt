@@ -1,0 +1,15 @@
+﻿ARTIFICIAL INTELLIGENCE
+
+Artificial intelligence is a branch of computer science that focuses on developing machines capable of performing tasks that normally require human intelligence.
+
+Machine learning is a major part of artificial intelligence. It allows computers to learn from data and improve their performance without being explicitly programmed for every task.
+
+Artificial intelligence is widely used in healthcare, education, transportation, banking, and industrial automation.
+
+Machine learning algorithms analyze large amounts of data to identify patterns, make predictions, and support decision-making.
+
+Neural networks are computational models inspired by the structure of the human brain. They are commonly used in image recognition, speech processing, and natural language understanding.
+
+The development of artificial intelligence has created opportunities for automation, improved productivity, and faster information processing.
+
+Artificial intelligence systems can process complex information and assist humans in solving problems across different industries.

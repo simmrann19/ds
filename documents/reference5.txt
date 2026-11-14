@@ -1,17 +1,36 @@
-﻿MACHINE LEARNING
+﻿SOURCE INFORMATION
 
-Machine learning is a field of computer science that enables computers to learn patterns from data and make decisions or predictions without being explicitly programmed for every situation.
+Source: Decision Trees
+Publisher: Google for Developers – Machine Learning Crash Course
+Author: Not specified
+URL: https://developers.google.com/machine-learning/decision-forests/decision-trees
 
-Machine learning is a major part of artificial intelligence. It allows computers to learn from data and improve their performance without being explicitly programmed for every task.
+--------------------------------------------------
 
-Machine learning algorithms analyze large amounts of data to identify patterns, make predictions, and support decision-making.
+# Decision Trees
 
-There are three major categories of machine learning: supervised learning, unsupervised learning, and reinforcement learning.
+Decision forest models are composed of decision trees. Decision forest learning algorithms, like random forests, rely, at least in part, on the learning of decision trees.
 
-Supervised learning uses labelled training data to build predictive models. Unsupervised learning identifies hidden patterns in datasets without predefined labels.
+In this section of the course, you will study a small example dataset and learn how a single decision tree is trained. In the next sections, you will learn how decision trees are combined to train decision forests.
 
-Reinforcement learning trains an agent through interactions with an environment, using rewards and penalties to improve its actions.
+## The Model
 
-Machine learning is applied in fraud detection, medical diagnosis, recommendation systems, image recognition, and weather forecasting.
+A decision tree is a model composed of a collection of questions organized hierarchically in the shape of a tree. The questions are usually called a condition, a split, or a test. We will use the term condition in this class. Each non-leaf node contains a condition, and each leaf node contains a prediction.
 
-The accuracy of a machine learning model depends on the quality of training data, feature selection, and the algorithm used.
+Botanical trees generally grow with the root at the bottom; however, decision trees are usually represented with the root, the first node, at the top.
+
+Inference of a decision tree model is computed by routing an example from the root at the top to one of the leaf nodes at the bottom according to the conditions. The value of the reached leaf is the decision tree's prediction. The set of visited nodes is called the inference path.
+
+For example, consider the following feature values:
+
+num_legs = 4
+num_eyes = 2
+
+The prediction would be dog. The inference path would be:
+
+1. num_legs >= 3: Yes
+2. num_eyes >= 3: No
+
+In the previous example, the leaves of the decision tree contain classification predictions; that is, each leaf contains an animal species among a set of possible species.
+
+Similarly, decision trees can predict numerical values by labeling leaves with regression predictions (numerical values). For example, a decision tree can predict a numerical cuteness score of an animal between 0 and 10.
