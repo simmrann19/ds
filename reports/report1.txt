@@ -1,0 +1,43 @@
+========== PLAGIARISM DETECTION REPORT ==========
+
+Rank: 1
+Reference: documents\reference1.txt
+Similarity: 61.22%
+Matching passages: 56
+  Matching text: large amounts of data to
+  Matching text: machine learning algorithms analyze large
+  Matching text: analyze large amounts of data
+  Matching text: of computer science that focuses
+  Matching text: a branch of computer science
+
+Rank: 2
+Reference: documents\reference5.txt
+Similarity: 48.57%
+Matching passages: 33
+  Matching text: large amounts of data to
+  Matching text: learning algorithms analyze large amounts
+  Matching text: machine learning algorithms analyze large
+  Matching text: analyze large amounts of data
+  Matching text: are three major categories of
+
+Rank: 3
+Reference: documents\reference6.txt
+Similarity: 9.93%
+Matching passages: 0
+
+Rank: 4
+Reference: documents\reference2.txt
+Similarity: 3.16%
+Matching passages: 0
+
+Rank: 5
+Reference: documents\reference3.txt
+Similarity: 2.56%
+Matching passages: 0
+
+Rank: 6
+Reference: documents\reference4.txt
+Similarity: 1.96%
+Matching passages: 0
+
+Note: Similarity is an indicator, not proof of plagiarism.

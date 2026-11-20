@@ -1,4 +1,5 @@
 #include "hashtable.h"
+#include <cstddef>
 #include <iostream>
 
 HashTable::HashTable(size_t size) {

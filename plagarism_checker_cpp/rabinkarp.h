@@ -2,6 +2,7 @@
 #ifndef RABINKARP_H
 #define RABINKARP_H
 
+#include <cstddef>
 #include <string>
 #include <vector>
 

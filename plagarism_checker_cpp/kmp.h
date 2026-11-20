@@ -2,6 +2,7 @@
 #ifndef KMP_H
 #define KMP_H
 
+#include <cstddef>
 #include <string>
 #include <vector>
 

@@ -2,6 +2,7 @@
 #ifndef HASHTABLE_H
 #define HASHTABLE_H
 
+#include <cstddef>
 #include <string>
 #include <vector>
 

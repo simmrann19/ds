@@ -1,4 +1,5 @@
 #include "similarity.h"
+#include <cstddef>
 #include <unordered_set>
 
 double calculateJaccardSimilarity(
